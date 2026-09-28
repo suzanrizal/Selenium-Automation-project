@@ -27,6 +27,8 @@ print(driver.title)
 #print current url
 print("The current URL is: ", driver.current_url)
 
-#Quit driver and browser
+#Close just the window 
+driver.close()
+#Quit entire webdriver 
 driver.quit()
 
