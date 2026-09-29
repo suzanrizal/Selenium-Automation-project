@@ -5,12 +5,12 @@ from selenium.webdriver.common.by import By
 def login(Username,Password):
 
     # Initilize driver
-    driver=webdriver.Edge()
+    driver=webdriver.Chrome()
     #delay execution time
     driver.maximize_window()
     time.sleep(2)
     url = "https://www.saucedemo.com/"
-
+    
     driver.get(url)
     time.sleep(2)
 
