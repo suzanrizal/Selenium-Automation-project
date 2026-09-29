@@ -1,25 +1,41 @@
-# from selenium import webdriver
-# import time
-# from selenium.webdriver.common.by import By
 
 from selenium import webdriver
 import time
+from selenium.webdriver.common.by import By
 # Initilize driver
 driver=webdriver.Edge()
 #delay execution time
-time.sleep(2)
+# time.sleep(2)
 driver.maximize_window()
 time.sleep(2)
-url = "https://www.mindrisers.com.np/"
+url = "https://www.saucedemo.com/"
 
-driver.get(url)
-time.sleep(2)
-#Refresh
-driver.refresh()
-driver.back()
+driver.get("url")
 time.sleep(2)
 
-driver.get("https://www.saucedemo.com/")
+# Locators by id
+
+# username=driver.find_element(By.ID, "user-name")
+# password=driver.find_element(By.ID, "password")
+# login_button=driver.find_element(By.ID, "login-button")
+
+# Locators by Xpath 
+
+username=driver.find_element(By.XPATH, "//*[@id='user-name']")
+password=driver.find_element(By.XPATH, "//*[@id='password']")
+login_button=driver.find_element(By.XPATH, "//*[@id='login-button']")
+
+
+# Actions
+username.send_keys("standard_user")
+time.sleep(2)
+password.send_keys("secret_sauce")
+time.sleep(2)
+if login_button.is_enabled:
+    print("Login button enabled")
+else:
+    print("Not enabled")
+login_button.click()
 time.sleep(2)
 
 #Print title and current url
