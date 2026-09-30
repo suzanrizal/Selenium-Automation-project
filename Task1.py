@@ -21,6 +21,9 @@ time.sleep(2)
 login_button.click()
 time.sleep(2)
 
+alert = driver.switch_to.alert
+
+
 driver.close()
 
 

@@ -10,9 +10,9 @@ def login(Username,Password):
     driver.maximize_window()
     time.sleep(2)
     url = "https://www.saucedemo.com/"
-    
+
     driver.get(url)
-    time.sleep(2)
+    time.sleep(1)
 
     # Locators by id
 
@@ -29,31 +29,28 @@ def login(Username,Password):
 
     # Actions
     username.send_keys(Username)
-    time.sleep(2)
+    time.sleep(1)
     password.send_keys(Password)
-    time.sleep(2)
+    time.sleep(1)
     if login_button.is_enabled():
         print("Login button enabled")
     else:
         print("Not enabled")
     login_button.click()
-    time.sleep(2)
+    time.sleep(1)
+
 
     #Print title and current url
-    print(driver.title)
+    # print(driver.title)
     #print current url
-    print("The current URL is: ", driver.current_url)
+    # print("The current URL is: ", driver.current_url)
 
 
     #Quit entire webdriver 
     driver.quit()
 
-login("standard_user", "secret_sauce")
-login("locked_out_user", "secret_sauce")
-login("problem_user", "secret_sauce")
-login("performance_glitch_user", "secret_Sauce")
-login("error_user", "secret_sauce")
-login("visual_user", "secret_sauce")
+
+
 
 
 
