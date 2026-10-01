@@ -1,5 +1,5 @@
 from selenium import webdriver
-# import time 
+import time 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -23,6 +23,7 @@ password.send_keys("secret_sauce")
 
 login_button = wait.until(EC.element_to_be_clickable((By.ID, "login-button")))
 login_button.click()
+time.sleep(3)
 
 # script validation
 
@@ -39,9 +40,9 @@ login_button.click()
 #     print("Login failed")
 
 # Standard method for assertion
-
+assert driver.current_url == "https://www.saucedemo.com/inventory.html", "login failed"
 assert "inventory" in driver.current_url, "login unsucessful"
-
+assert driver.title == "Swag Labs", "login failed"
 
 driver.close()
 driver.quit()
