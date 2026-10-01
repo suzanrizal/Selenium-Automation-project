@@ -32,7 +32,6 @@ alert = driver.switch_to.alert
 alert.accept()
 time.sleep(2)
 
-
 driver.close()
 
 
