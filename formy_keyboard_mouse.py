@@ -35,7 +35,7 @@ actions.send_keys("Sujan rijal").perform()
 time.sleep(2)
 
 
-
+driver.quit()
 
 
 

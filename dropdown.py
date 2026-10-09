@@ -31,8 +31,6 @@ select = Select(sort_options2)
 select.select_by_value("hilo")
 time.sleep(2)
 
-
-driver.close()
 driver.quit()
 
 

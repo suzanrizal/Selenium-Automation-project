@@ -35,7 +35,7 @@ highest_education.click()
 # assert highest_education.is_selected(), "Education was not selected"
 time.sleep(1)
 
-driver.execute_script("window.scrollBy(0,500);")       # Mouse scroolm action
+driver.execute_script("window.scrollBy(0,500);")       # Mouse scroll action
 
 sex_checkbox = driver.find_element(By.ID, "checkbox-1")
 sex_checkbox.click()

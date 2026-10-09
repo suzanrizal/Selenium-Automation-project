@@ -15,7 +15,6 @@ time.sleep(3)
 assert file_upload.get_attribute("value"), "File was not uploaded"
 print("File uploaded successfully")
 
-driver.close()
 driver.quit()
 
 

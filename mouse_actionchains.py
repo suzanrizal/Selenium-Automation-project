@@ -30,5 +30,4 @@ actions.release(login_button).perform()   # Click and hold the element
 time.sleep(2)
 
 
-driver.close()
 driver.quit()
