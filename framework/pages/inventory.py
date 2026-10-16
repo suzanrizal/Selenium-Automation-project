@@ -2,12 +2,9 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
-
-
 class inventorypage:
     def __init__(self, driver):
         self.driver = driver
-
         # Locators
         self.sort_dropdown = (By.XPATH, "//select[@aria-label='Sort products']")
         self.fleece_jacket = (By.ID, "add-to-cart-sauce-labs-fleece-jacket")

@@ -4,6 +4,7 @@ import time
 class loginpage:
     def __init__(self, driver):
         self.driver = driver
+        
         self.username = (By.ID, "user-name")
         self.password = (By.ID, "password")
         self.login_button = (By.ID, "login-button")
