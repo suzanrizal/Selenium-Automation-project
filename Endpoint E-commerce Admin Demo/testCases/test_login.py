@@ -2,11 +2,19 @@ import pytest
 from selenium import webdriver
 from pageObjects.LoginPage import Loginpage
 import time
+from Utilities.readProperties import readconfig
 
 class Test_001_Login:
-    baseURL = "https://admin.demo.ecommerce.endpointdev.com/"
-    username = "admin"
-    password = "Password123!"
+
+    # without config.ini file we had hardcoded info 
+    # baseURL = "https://admin.demo.ecommerce.endpointdev.com/"
+    # username = "admin"
+    # password = "Password123!"
+
+    # reading common information from config.ini file
+    baseURL = readconfig.getapplicationURL()
+    username = readconfig.getUsername()
+    password = readconfig.getpassword()
 
     def test_homePageTitle(Self, driver):
         Self.driver = driver
