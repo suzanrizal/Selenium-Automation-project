@@ -3,6 +3,7 @@ from selenium import webdriver
 from pageObjects.LoginPage import Loginpage
 import time
 from Utilities.readProperties import readconfig
+from Utilities.customLogger import LogGen
 
 class Test_001_Login:
 
@@ -16,30 +17,44 @@ class Test_001_Login:
     username = readconfig.getUsername()
     password = readconfig.getpassword()
 
-    def test_homePageTitle(Self, driver):
-        Self.driver = driver
-        Self.driver.get(Self.baseURL)
-        actual_title = Self.driver.title
+    logger = LogGen.logGen()
 
-        assert actual_title == "Login - End Point Ecommerce - Admin Portal"
+    def test_homePageTitle(self, driver):
+        self.logger.info("************ Test_001_Login **********")
+        self.logger.info("************ Verifying Homepage Title **********")
+        self.driver = driver
+        self.driver.get(self.baseURL)
+        actual_title = self.driver.title
+
+        if actual_title == "Login - End Point Ecommerce - Admin Portal":
+            assert True
+            self.logger.info("************ Homepage Title Test passed **********")
+        else:
+            self.driver.save_screenshot("Screenshots/test_homePageTitle.png")
+            self.logger.error("************ Homepage Title Test Failed **********")
+            assert False
+        
         
 
-    def test_login(Self, driver):
-        Self.driver = driver
-        Self.driver.get(Self.baseURL)
+    def test_login(self, driver):
+        self.logger.info("************ Verifying Login Test **********")
+        self.driver = driver
+        self.driver.get(self.baseURL)
 
-        Self.obj = Loginpage(Self.driver)
-        Self.obj.setUserName(Self.username)
-        Self.obj.setPassword(Self.password)
-        Self.obj.clickLogin()
+        self.obj = Loginpage(self.driver)
+        self.obj.setUserName(self.username)
+        self.obj.setPassword(self.password)
+        self.obj.clickLogin()
         time.sleep(2)
-        actual_title =Self.driver.title
+        actual_title =self.driver.title
 
-        if actual_title == "Dashboard - End Point Ecommerce - Admin Porta":
+        if actual_title == "Dashboard - End Point Ecommerce - Admin Portal":
             assert True
+            self.logger.info("************ Login Test Passed **********")
         else:
-            Self.driver.save_screenshot("Screenshots/test_login.png")
-            assert False , "Login failed: Dashboard title not found"
+            self.driver.save_screenshot("Screenshots/test_login.png")
+            self.logger.error("************ Login Test Failed **********")
+            assert False 
         
             
         
