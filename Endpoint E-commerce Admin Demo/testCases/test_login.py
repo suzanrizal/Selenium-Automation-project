@@ -17,7 +17,7 @@ class Test_001_Login:
     username = readconfig.getUsername()
     password = readconfig.getpassword()
 
-    logger = LogGen.logGen()
+    logger = LogGen.loggen()
 
     def test_homePageTitle(self, driver):
         self.logger.info("************ Test_001_Login **********")
