@@ -1,10 +1,8 @@
 import pytest
 from selenium import webdriver
 from pageObjects.LoginPage import Loginpage
-import time
 from Utilities.readProperties import readconfig
 from Utilities.customLogger import LogGen
-from Utilities.CSVutils import CSVfiles
 
 class Test_001_Login:
 
@@ -36,8 +34,6 @@ class Test_001_Login:
             assert False
         
             
-        
-
         
     # def test_login(self, driver):
     #     self.logger.info("************ Verifying Login Test **********")
