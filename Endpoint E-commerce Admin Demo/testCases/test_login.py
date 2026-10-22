@@ -33,8 +33,7 @@ class Test_001_Login:
             self.logger.error("************ Homepage Title Test Failed **********")
             assert False
         
-            
-        
+                 
     # def test_login(self, driver):
     #     self.logger.info("************ Verifying Login Test **********")
     #     self.driver = driver
@@ -44,7 +43,6 @@ class Test_001_Login:
     #     self.obj.setUserName(self.username)
     #     self.obj.setPassword(self.password)
     #     self.obj.clickLogin()
-    #     time.sleep(2)
     #     actual_title =self.driver.title
 
     #     if actual_title == "Dashboard - End Point Ecommerce - Admin Portal":
