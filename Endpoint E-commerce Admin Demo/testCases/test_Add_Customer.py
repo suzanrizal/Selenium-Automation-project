@@ -39,10 +39,12 @@ class Test_003_AddCustomer:
 
         self.Email = emailgenerator()   # Generating Random email and saving into Email variable
 
-        self.ACobj.setEmail(self.Email)  #Using the Random email
+        self.ACobj.setEmail(self.Email)  #Using the Random email  
 
         self.ACobj.clickSave()
         time.sleep(2)
+
+        self.logger.info("*********** Saving Customer Info **********")
 
 
         
