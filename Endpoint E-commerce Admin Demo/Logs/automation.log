@@ -82,3 +82,133 @@
 10/22/2026 12:37:41 PM: INFO: ******** Login Sucessful ********
 10/22/2026 12:37:41 PM: INFO: ********* Starting Add Customer Test **********
 10/22/2026 12:37:44 PM: INFO: ********** Providing Customer Info ********
+10/25/2026 10:02:46 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 10:02:46 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 10:02:46 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 10:02:50 AM: INFO: ******** Login Sucessful ********
+10/25/2026 10:02:50 AM: INFO: ******** Login Sucessful ********
+10/25/2026 10:02:50 AM: INFO: ******** Login Sucessful ********
+10/25/2026 10:02:50 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 10:02:50 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 10:02:50 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 10:02:53 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 10:02:53 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 10:02:53 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 10:02:55 AM: INFO: *********** Saving Customer Info **********
+10/25/2026 10:02:55 AM: INFO: *********** Saving Customer Info **********
+10/25/2026 10:02:55 AM: INFO: *********** Saving Customer Info **********
+10/25/2026 10:02:55 AM: INFO: *********** Add Customer Test Passed ***********
+10/25/2026 10:02:55 AM: INFO: *********** Add Customer Test Passed ***********
+10/25/2026 10:02:55 AM: INFO: *********** Add Customer Test Passed ***********
+10/25/2026 10:02:59 AM: INFO: ************ Test_001_Login **********
+10/25/2026 10:02:59 AM: INFO: ************ Test_001_Login **********
+10/25/2026 10:02:59 AM: INFO: ************ Test_001_Login **********
+10/25/2026 10:02:59 AM: INFO: ************ Verifying Homepage Title **********
+10/25/2026 10:02:59 AM: INFO: ************ Verifying Homepage Title **********
+10/25/2026 10:02:59 AM: INFO: ************ Verifying Homepage Title **********
+10/25/2026 10:03:03 AM: INFO: ************ Homepage Title Test passed **********
+10/25/2026 10:03:03 AM: INFO: ************ Homepage Title Test passed **********
+10/25/2026 10:03:03 AM: INFO: ************ Homepage Title Test passed **********
+10/25/2026 10:03:06 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:06 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:06 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:11 AM: INFO: ******** Login Test Passed: Invalid Login Rejected *******
+10/25/2026 10:03:11 AM: INFO: ******** Login Test Passed: Invalid Login Rejected *******
+10/25/2026 10:03:11 AM: INFO: ******** Login Test Passed: Invalid Login Rejected *******
+10/25/2026 10:03:15 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:15 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:15 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:24 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:24 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:24 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:30 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:30 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:03:30 AM: INFO: ********** Verifying Login Test*******
+10/25/2026 10:04:22 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 10:04:28 AM: INFO: ******** Login Sucessful ********
+10/25/2026 10:04:28 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 10:04:29 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 10:04:32 AM: INFO: *********** Saving Customer Info **********
+10/25/2026 10:04:32 AM: INFO: *********** Add Customer Test Passed ***********
+10/25/2026 10:04:46 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 10:04:51 AM: INFO: ******** Login Sucessful ********
+10/25/2026 10:04:51 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 10:04:54 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 10:04:57 AM: INFO: *********** Saving Customer Info **********
+10/25/2026 10:04:57 AM: ERROR: ********** Add Customer Failed ***********
+10/25/2026 11:03:17 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:03:21 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:03:21 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:03:23 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:03:25 AM: INFO: *********** Search customer started ***********
+10/25/2026 11:04:45 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:04:50 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:04:50 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:04:52 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:04:55 AM: INFO: *********** Search customer started ***********
+10/25/2026 11:04:55 AM: INFO: ********** Searching customer ..... *********
+10/25/2026 11:07:53 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:07:58 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:07:58 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:08:00 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:08:03 AM: INFO: *********** Search customer started ***********
+10/25/2026 11:08:03 AM: INFO: ********** Searching customer ..... *********
+10/25/2026 11:09:27 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:09:32 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:09:32 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:09:34 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:10:36 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:10:41 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:10:41 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:10:43 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:11:37 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:11:42 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:11:42 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:11:45 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:13:39 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:13:44 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:13:44 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:13:46 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:18:11 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:18:15 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:18:15 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:18:17 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:19:01 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:19:05 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:19:05 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:19:08 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:19:58 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:20:03 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:20:03 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:20:06 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:22:40 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:22:44 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:22:44 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:22:46 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:26:30 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:26:34 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:26:34 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:26:36 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:26:48 AM: INFO: *********** Search customer started ***********
+10/25/2026 11:26:48 AM: INFO: ********** Searching customer ..... *********
+10/25/2026 11:28:33 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:28:38 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:28:38 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:28:39 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:28:51 AM: INFO: *********** Search customer started ***********
+10/25/2026 11:28:51 AM: INFO: ********** Searching customer ..... *********
+10/25/2026 11:30:44 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:30:49 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:30:49 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:30:51 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:31:01 AM: INFO: *********** Search customer started ***********
+10/25/2026 11:37:21 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:37:30 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:37:30 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:37:32 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:37:43 AM: INFO: *********** Search customer started ***********
+10/25/2026 11:38:18 AM: INFO: **********Test 003 Add Customer *********
+10/25/2026 11:38:23 AM: INFO: ******** Login Sucessful ********
+10/25/2026 11:38:23 AM: INFO: ********* Starting Add Customer Test **********
+10/25/2026 11:38:25 AM: INFO: ********** Providing Customer Info ********
+10/25/2026 11:38:36 AM: INFO: *********** Search customer started ***********

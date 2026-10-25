@@ -45,6 +45,18 @@ class Test_003_AddCustomer:
         time.sleep(2)
 
         self.logger.info("*********** Saving Customer Info **********")
+        if driver.current_url == "https://admin.demo.ecommerce.endpointdev.com/Customers":
+            assert True
+            self.logger.info("*********** Add Customer Test Passed ***********")
+
+        else:
+            self.driver.save_screenshot("Screenshots/AddCustomer.png")
+            self.logger.error("********** Add Customer Failed ***********")
+            assert False
+
+
+
+
 
 
         
