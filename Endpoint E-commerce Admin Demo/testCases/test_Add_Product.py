@@ -65,5 +65,8 @@ class Test_004_AddProduct:
         self.APobj.SetMainImage()
         self.APobj.SetThumnailImage()
         self.APobj.SetAddditionalImage()
+        self.Scrollobj.ScrollToSave()
+        time.sleep(2)
         self.APobj.SaveButton()
+        print("Product Saved sucessfully")
         

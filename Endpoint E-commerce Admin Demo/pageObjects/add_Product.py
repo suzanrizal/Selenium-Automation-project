@@ -158,12 +158,19 @@ class AddProduct:
         self.driver.find_element(By.XPATH, self.save_button_XPATH).click()
 
 class ScrollDown:
-          
+
+    save_button_XPATH = "//button[@formaction='/Products/Create?handler=Save']"
+
     def __init__(self,driver = webdriver.Chrome):
         self.driver = driver
 
     def Scroll500(self):
         self.driver.execute_script("window.scrollBy(0, 500);")
+
+    # Scrolling to element
+    def ScrollToSave(self):
+        element = self.driver.find_element(By.XPATH, self.save_button_XPATH)
+        self.driver.execute_script("arguments[0].scrollIntoView();", element)
 
         
 

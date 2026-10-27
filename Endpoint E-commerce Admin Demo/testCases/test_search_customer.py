@@ -62,17 +62,6 @@ class Test_003_AddCustomer:
 
         time.sleep(2)
 
-        # #Searching Customer 
-        # self.logger.info("*********** Search customer started ***********")
-        # self.Scobj = SearchCustomer(self.driver)
-        # self.Scobj.SearchFirstNameField("Rahul")
-        # self.logger.info("********** Searching customer ..... *********")
-        # # self.Scobj.searchLastNameField("Kamal")
-        # rows = self.Scobj.getNoOfRows()
-
-        # for row in rows:
-        #     assert "Rahul" in row.text, "Search Failed"
-
         # Searching Customer and Validating
         self.logger.info("*********** Search customer started ***********")
 
