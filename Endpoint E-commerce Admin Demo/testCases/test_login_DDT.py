@@ -8,13 +8,11 @@ from Utilities.CSVutils import CSVfiles
 class Test_002_DDT_Login:
         baseURL = readconfig.getapplicationURL()
         logger = LogGen.loggen()
-
      # Data Driven testing 
         @pytest.mark.parametrize(
         "username,password,exp",
                 CSVfiles.get_login_data()
         )
-
         def test_login(self,driver,username,password,exp):
             self.logger.info("********** Verifying Login Test*******")
     

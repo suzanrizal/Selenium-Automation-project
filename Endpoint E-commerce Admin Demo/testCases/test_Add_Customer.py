@@ -25,7 +25,8 @@ class Test_003_AddCustomer:
         self.Lobj.clickLogin()
 
         self.logger.info("******** Login Sucessful ********")
-
+        
+        # Adding New Customer
         self.logger.info("********* Starting Add Customer Test **********")
 
         self.ACobj = AddCustomer(self.driver)
@@ -48,7 +49,6 @@ class Test_003_AddCustomer:
         if driver.current_url == "https://admin.demo.ecommerce.endpointdev.com/Customers":
             assert True
             self.logger.info("*********** Add Customer Test Passed ***********")
-
         else:
             self.driver.save_screenshot("Screenshots/AddCustomer.png")
             self.logger.error("********** Add Customer Failed ***********")
