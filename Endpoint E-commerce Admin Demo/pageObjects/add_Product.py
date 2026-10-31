@@ -69,6 +69,7 @@ class AddProduct:
     def setHeading2(self):
         self.driver.find_element(By.CSS_SELECTOR , self.Heading2_CSS).click()
 
+    #Using Explicit Wait
     def setDescription(self, text):
         wait = WebDriverWait(self.driver, 10)
 
@@ -82,7 +83,7 @@ class AddProduct:
         self.driver.find_element(
         By.CSS_SELECTOR, self.HeadingDropdown_CSS).click()
 
-
+    # Using Explicit Wait
     def setHeading2(self):
         wait = WebDriverWait(self.driver, 10)
 
@@ -92,27 +93,6 @@ class AddProduct:
         )
         )
         heading2.click()
-
-#     def DescriptionHeadingDropdown(self):
-#         wait = WebDriverWait(self.driver, 10)
-
-#         dropdown = wait.until(
-#         EC.element_to_be_clickable(
-#             (By.CSS_SELECTOR, self.DescriptionHeadingDropdown_CSS)
-#         )
-#     )
-#         dropdown.click()
-
-
-# def setHeading2(self):
-#     wait = WebDriverWait(self.driver, 10)
-
-#     heading2 = wait.until(
-#         EC.element_to_be_clickable(
-#             (By.CSS_SELECTOR, self.Heading2_CSS)
-#         )
-#     )
-#     heading2.click()
 
     def SetDescription(self, Description):
         self.driver.find_element(By.CLASS_NAME, self.Description_textbox_CLASS).send_keys(Description)
