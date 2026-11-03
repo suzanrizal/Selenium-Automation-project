@@ -1,3 +1,4 @@
+
 # f = open("demo.txt", "r")
 # print(f.read())
 # f.close()
@@ -10,11 +11,36 @@
 
 
 # For writing to a file
-with open("demo.txt", "w") as f:
-    f.write("\nThis is a new line added to the file.")
+# with open("demo.txt", "w") as f:
+#     f.write("\nThis is a new line added to the file.")
 
-with open("demo.txt", "r") as f:
-    print(f.read()) # This will read the entire file after writing to it
+# with open("demo.txt", "a") as f:
+#     f.write("\nThis is my first QA job.")
+
+# with open("demo.txt", "r") as f:
+#     print(f.read()) # This will read the entire file after writing to it
+
+# Creating new file 
+# with open("newfile.txt", "x") as f:
+#     f.write("This is a new file created using Python.")
+
+# import os
+
+# os.remove("newfile.txt") # This will delete the file named "newfile.txt"
+import csv
+
+def Get_login_csv_data():
+    with open("User.csv", "r", newline="") as CSVfile:
+        reader = csv.DictReader(CSVfile)
+        data = []
+        for row in reader:   
+            data.append((
+                row["Username"],
+                row["Password"],
+            ))
+        return data
+
+
 
 
 
